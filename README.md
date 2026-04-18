@@ -1,314 +1,197 @@
-\# 🌍 Climate Trend Analyzer
-
-
+# 🌍 Climate Trend Analyzer
 
 A beginner-friendly yet industry-style data science project that analyzes climate data to uncover trends, detect anomalies, and forecast future temperature patterns.
 
+---
 
-
-\---
-
-
-
-\## 📌 Project Overview
-
-
+## 📌 Project Overview
 
 Climate Trend Analyzer simulates how real-world climate analysts study environmental data.
 
-
-
 It helps in:
 
-\- Understanding temperature changes over time
+- Understanding temperature changes over time  
+- Analyzing rainfall patterns  
+- Detecting unusual climate events (anomalies)  
+- Predicting future temperature trends  
 
-\- Analyzing rainfall patterns
+---
 
-\- Detecting unusual climate events (anomalies)
-
-\- Predicting future temperature trends
-
-
-
-\---
-
-
-
-\## 🎯 Problem Statement
-
-
+## 🎯 Problem Statement
 
 Climate change is one of the biggest global challenges.
 
-
-
 This project answers:
 
-\- Is temperature increasing over time?
+- Is temperature increasing over time?  
+- Are there unusual spikes or drops?  
+- What might future climate look like?  
 
-\- Are there unusual spikes or drops?
+---
 
-\- What might future climate look like?
+## 🚀 Features
 
+- 📊 Data Analysis using Pandas  
+- 📈 Trend Visualization (Temperature & Rainfall)  
+- ⚠️ Anomaly Detection (Extreme values)  
+- 🔮 Forecasting (Next 30 days temperature)  
+- 🤖 AI-generated Insights  
+- 🎛 Interactive Dashboard (Streamlit)  
+- 📥 Download Filtered Data  
 
+---
 
-\---
-
-
-
-\## 🚀 Features
-
-
-
-\- 📊 Data Analysis using Pandas
-
-\- 📈 Trend Visualization (Temperature \& Rainfall)
-
-\- ⚠️ Anomaly Detection (Extreme values)
-
-\- 🔮 Forecasting (Next 30 days temperature)
-
-\- 🤖 AI-generated Insights
-
-\- 🎛 Interactive Dashboard (Streamlit)
-
-\- 📥 Download Filtered Data
-
-
-
-\---
-
-
-
-\## 🏢 Real-World Use Cases
-
-
+## 🏢 Real-World Use Cases
 
 This type of system is used by:
 
-\- Government climate departments
+- Government climate departments  
+- Environmental research organizations  
+- Smart city planners  
+- Weather analytics companies  
 
-\- Environmental research organizations
+---
 
-\- Smart city planners
+## 🛠 Tech Stack
 
-\- Weather analytics companies
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Plotly  
+- Streamlit  
 
+---
 
+## 📂 Project Structure
 
-\---
-
-
-
-\## 🛠 Tech Stack
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Plotly
-
-\- Streamlit
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
-
-
-
+```
 Climate-Trend-Analyzer/
-
 │
-
 ├── data/
-
-│ └── raw/
-
-│ └── climate\_data.csv
-
+│   └── raw/
+│       └── climate_data.csv
 │
-
 ├── src/
-
-│ ├── forecasting.py
-
+│   └── forecasting.py
 │
-
 ├── app/
-
-│ └── app.py
-
+│   └── app.py
 │
-
 ├── outputs/
-
-│ └── plots/
-
+│   └── plots/
 │
-
 ├── main.py
-
 ├── requirements.txt
-
 └── README.md
+```
 
+---
 
-
-
-
-\---
-
-
-
-\## ⚙️ Installation
-
-
-
-Clone the repository:
-
-
+## ⚙️ Installation
 
 ```bash
-
 git clone https://github.com/your-username/climate-trend-analyzer.git
-
 cd climate-trend-analyzer
-
-
+```
 
 Create virtual environment:
 
-
-
+```bash
 python -m venv venv
-
-
+```
 
 Activate environment:
 
+**Windows:**
+```bash
+venv\Scripts\activate
+```
 
-
-Windows:
-
-
-
-venv\\Scripts\\activate
-
-
-
-Mac/Linux:
-
-
-
+**Mac/Linux:**
+```bash
 source venv/bin/activate
-
-
+```
 
 Install dependencies:
 
-
-
+```bash
 pip install -r requirements.txt
+```
 
-▶️ Run the Project
+---
 
+## ▶️ Run the Project
+
+```bash
 streamlit run app/app.py
+```
 
-📊 What You Will See
+---
 
-Temperature trend graph 📈
+## 📊 What You Will See
 
-Rainfall trend graph 🌧
+- Temperature trend graph 📈  
+- Rainfall trend graph 🌧  
+- Anomaly detection chart ⚠️  
+- Forecast graph 🔮  
+- Interactive filters 🎛  
+- Downloadable dataset 📥  
 
-Anomaly detection chart ⚠️
+---
 
-Forecast graph 🔮
-
-Interactive filters 🎛
-
-Downloadable dataset 📥
-
-🤖 AI Insights Example
-
-
+## 🤖 AI Insights Example
 
 The dashboard automatically generates insights like:
 
+- Average Temperature: 25°C  
+- Trend: Increasing 📈  
+- Anomalies Detected: Yes  
+
+---
+
+## 📥 Output
+
+- Graphs displayed in dashboard  
+- CSV report download  
+- Clean visual analytics  
 
 
-Average Temperature: 25°C
+```markdown
+![Dashboard](images/dashboard.png)
+![Anomalies](images/anomaly.png)
+![Forecast](images/forecast.png)
+```
 
-Trend: Increasing 📈
+---
 
-Anomalies Detected: Yes
+## 🚀 Future Improvements
 
-📥 Output
+- 🌍 Map-based climate visualization  
+- 🔗 Live weather API integration  
+- 🤖 Machine learning anomaly detection  
+- 📊 Advanced forecasting (ARIMA, Prophet)  
+- 📱 Deploy as web app  
 
-Graphs displayed in dashboard
+---
 
-CSV report download
+## 🎓 Learning Outcomes
 
-Clean visual analytics
+- Data analysis using Pandas  
+- Time-series trend analysis  
+- Anomaly detection basics  
+- Data visualization  
+- Building dashboards using Streamlit  
+- GitHub project management  
 
-📸 Screenshots (Add Your Images)
+---
 
-images/
+## 👨‍💻 Author
 
-├── dashboard.png
+**Dhananjay Bhaskar**
 
-├── anomaly.png
+---
 
-├── forecast.png
-
-🚀 Future Improvements
-
-🌍 Map-based climate visualization
-
-🔗 Live weather API integration
-
-🤖 Machine learning anomaly detection
-
-📊 Advanced forecasting (ARIMA, Prophet)
-
-📱 Deploy as web app
-
-🎓 Learning Outcomes
-
-Data analysis using Pandas
-
-Time-series trend analysis
-
-Anomaly detection basics
-
-Data visualization
-
-Building dashboards using Streamlit
-
-GitHub project management
-
-👨‍💻 Author
-
-
-
-Dhananjay Bhaskar
-
-
-
-⭐ Support
-
-
+## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
-
